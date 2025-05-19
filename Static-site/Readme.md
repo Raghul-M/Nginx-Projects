@@ -1,15 +1,18 @@
-#  NGINX Static Website Hosting 
+# NGINX Static Website Hosting 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fa92b23c-5d39-453a-b071-b7d086d744e3" alt="image" />
+</p>
+
 
 This project demonstrates how to host a simple static HTML website using **NGINX** on an Ubuntu server.
 
-##  What You'll Learn
+## What You'll Learn
 
 - How to install and configure NGINX
 - How to serve a static site using NGINX
 - Understanding NGINX configuration files
 - Basics of systemd services and permissions
-
----
 
 ## 🛠️ Setup Steps
 
@@ -73,15 +76,15 @@ sudo nginx -t
 sudo systemctl reload nginx
 ```
 
----
-
 ##  Access Your Site
+
 
 Open your server IP in the browser:  
 `http://<your-server-ip>` or `http://localhost`
 
-You should see This Site 
----
+**You should see This Site** 
+
+![Screenshot 2025-05-20 at 12 46 54 AM](https://github.com/user-attachments/assets/e1dcdadc-664c-4caa-b1f3-c2cf7b4aa95e)
 
 ## 📂 Folder Structure
 
@@ -95,7 +98,6 @@ You should see This Site
     └── mysite -> ../sites-available/mysite
 ```
 
----
 
 ## 📌 Notes
 
@@ -109,5 +111,3 @@ You should see This Site
 
 **Raghul**  
 Connect with me on [LinkedIn - Raghul-M](https://www.linkedin.com/in/m-raghul/) or explore my tech blog [blog.raghul.in/](https://blog.raghul.in/)
-
----
