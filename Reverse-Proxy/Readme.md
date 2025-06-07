@@ -129,6 +129,10 @@ sudo systemctl reload nginx
 * Visit `http://yourdomain.com` or `http://<your-ec2-public-ip>/` in your browser.
 * You should see the Streamlit app served via NGINX.
 
+#### You should see This Site
+
+<img width="1397" alt="Screenshot 2025-06-08 at 12 29 27 AM" src="https://github.com/user-attachments/assets/c2c31500-8884-4fd7-88fb-539b2e25a6e5" />
+
 
 
 ## 7. Troubleshooting
@@ -149,7 +153,7 @@ sudo systemctl reload nginx
 
 ---
 
-#### 🧑‍💻 Author
+### 🧑‍💻 Author
 
 **Raghul**  
 Connect with me on [LinkedIn - Raghul-M](https://www.linkedin.com/in/m-raghul/) or explore my tech blog [blog.raghul.in/](https://blog.raghul.in/)
