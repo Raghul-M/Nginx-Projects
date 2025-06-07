@@ -37,7 +37,17 @@ sudo nano /var/www/mysite/index.html
 
 Paste the sample content from inex.html :
 
+Set the Permissions 
+```
+sudo chown -R www-data:www-data /var/www/mysite
 
+```
+
+#### Who is www-data?
+www-data is the default system user and group used by NGINX (and Apache) to run web processes.
+
+It’s like saying:
+"Make sure the web server has permission to read and serve these files."
 
 ### 3. Create NGINX Config File
 
